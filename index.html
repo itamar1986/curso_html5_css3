@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Minha página</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	
+	<body>
+		
+		<header>
+			<h1>Curso Programação para internet com HTML5 e CSS3</h1>
+		</header>
+			
+		<nav>
+			<p>Menu:</p>
+			<ul>
+				<li>
+					<a href= "#servicos">Serviços</a>
+				</li>
+				<li>
+					<a href= "#clientes">Clientes</a>
+				</li>
+				<li>
+					<a href= "#parceiros">Parceiros</a>
+				</li>
+				<li>
+					<a href= "#time">Time</a>
+				</li>
+				<li>
+					<a href= "#contatos">Contatos</a>
+				</li>
+			</ul>
+		</nav>
+		
+		<section id="servicos">
+			<h2>SERVIÇOS</h2>
+			<p>
+				Oferecemos os melhores serviços em
+				desenvolvimento de sites e aplicativos.
+			</p>
+			<div>
+				<img src="img/site.jpg" class="img_padrao">
+				<!--img src="img/site.jpg" width="300px"
+				para variar a altura sem o CSS-->
+			</div>
+			<div>
+				<img src="img/app.jpg" class="img_padrao">
+			</div>
+		</section>
+		
+		<section id="clientes">
+			<h2>CLIENTES</h2>
+			<p>
+				Nossos clientes ficaram muito 
+				satisfeitos com os nossos serviços.
+			</p>
+			<div>
+				<img src="img/cliente1.jpg" class="img_padrao">
+			</div>
+			<div>
+				<img src="img/cliente2.jpg" class="img_padrao">
+			</div>
+		</section>
+		
+		<section id="parceiros">
+			<h2>PARCEIROS</h2>
+			<p>
+				Nossos parceiros nos ajudam a entregar 
+				as melhores soluções para nossos clientes.
+			</p>
+			<div>
+				<a href="https://web.digitalinnovation.one/course" target="blink">
+					<img src="img/academiapmc.png" width="100px">
+				</a>
+			</div>
+			<div>
+				<a href="https://jornadadodev.com.br/" target="blink">
+					<img src="img/digital_inovation_one.png" width="100px">
+				</a>
+			</div>
+		</section>
+		
+		<section id="time">
+			<h2>TIME</h2>
+			<p>
+				Nosso time trabalha com muita qualidade e empenho
+				para entrar o melhor produto para nossos clientes.
+			</p>
+			<div>
+				<img src="img/time.jpeg" class="img_padrao">
+			</div>
+			<div>
+				<img src="img/time2.jpeg" class="img_padrao">
+			</div>
+		</section>
+		
+		<section id="contatos">
+			<h2>CONTATOS</h2>
+			<p>
+				Entre em contato com nossa equipe.
+			</p>
+			<div>
+				<img src="img/email.png" class="logo">
+				<p><a href="mailto:contato@empresa.com">contato@empresa.com</a></p>
+			</div>
+			<div>
+				<img src="img/fone.png" class="logo">
+				<p><a href="tel:7112345678">(71) 1234-5678</a></p>
+			</div>
+			
+			<!--
+			<P>
+				Primeira aula video da pagina Digital Innovation One.<br>
+				Curso Programação para internet com HTML5 e CSS3.<br>
+				Introdução ao HTML5 e CSS3.
+			</p>
+			
+			<P>
+				Criar o arquivo index.<br>
+				Abrir com um editor de texto.
+			</p>
+			<P>
+				Segunda aula video da pagina Digital Innovation One.<br>
+				Curso Programação para internet com HTML5 e CSS3.<br>
+				As principais tags HTML5 para iniciar um projeto.
+			</p>
+			
+			<p>Novo paragrafo</P>
+		
+			<p>
+				head / cabeca - define uma informacao sobre o documento.<br>
+				title / titulo - define o titulo do documento.<br>
+				body / corpo - define o corpo da pagina.<br>
+				header / cabeçalho.<br>
+				h1 ate h6 - define titulo e subtitulo.<br>
+				p - define um paragrafo.<br>
+				footer - define o rodapé
+			</p>
+			
+			<header>
+			<h1>Minha página</h1>
+			<h2>Minha página</h2>
+			<h3>Minha página</h3>
+			<h4>Minha página</h4>
+			<h5>Minha página</h5>
+			<h6>Minha página</h6>
+			</header>
+			
+			<P>
+				Terceira aula video da pagina Digital Innovation One.<br>
+				Curso Programação para internet com HTML5 e CSS3.<br>
+				Implementação de novas tags: navegação, sessão e imagem.
+			</p>
+			<p>
+				nav / navegador - menu de navegação.<br>
+				li - define os itens da lista.<br>
+				section / seção - define uma seção.<br>
+				img - define uma imagem.<br>
+				src - define o local da imagem "local/nome.extencao".<br>
+				width - largura.<br>
+				height - altura.
+			</p>
+			
+			<P>
+				Quarta aula video da pagina Digital Innovation One.<br>
+				Curso Programação para internet com HTML5 e CSS3.<br>
+				Insira divisões e links de navegação na sua pagina WEB.
+			</p>
+			<p>
+				div - define uma seção no documento.<br>
+				a - define um hyperlink.<br>
+				href - define uma referencia a href= a"#nome do local quequer ir">Local/a.<br>
+				section id="local" - representa o local que quer chegar a href.<br>
+				img - define uma imagem.<br>
+				src - define o local da imagem "local/nome.extencao".<br>
+				width - largura.<br>
+				height - altura.
+			</p>
+			
+			<P>
+				Quinta aula video da pagina Digital Innovation One.<br>
+				Curso Programação para internet com HTML5 e CSS3.<br>
+				Insira links para abrir páginas WEB externas e enviar e-mails.
+			</p>
+			<p>
+				mailto - todo que esta dentro do elemento "a" vai para o email referente.<br>
+				a - define um hyperlink.<br>
+				href - define uma referencia a href= a"#nome do local quequer ir">Local/a.<br>
+				section id="local" - representa o local que quer chegar a href.<br>
+				tel - ele funciona como o mailto.<br>
+				a href="pagina da internet" - clica na imagem e vai para a pagina.<br>
+				target / alvo - abre a pagina da internet na mesma pagina.<br>
+				blink / piscar - abre a pagina da internet na outra pagina.
+			</p>
+			
+			<P>
+				Sexta aula video da pagina Digital Innovation One.<br>
+				Curso Programação para internet com HTML5 e CSS3.<br>
+				Introduzindo o CSS3 ao arquivo HTML5.
+			</p>
+			<p>
+				criar a pasta css.<br>
+				criar o arquivo style.css.<br>
+				background / fundo - criar cor de fundo no html.<br>
+				link / ligação - define uma referencia.<br>
+				stylesheet / folha de estilo.<br>
+				type / tipo.
+				link para cores: https://htmlcolorcodes.com/
+			</p>
+			
+			<P>
+				Setima aula video da pagina Digital Innovation One.<br>
+				Curso Programação para internet com HTML5 e CSS3.<br>
+				Aprenda como inserir estilos CSS no seu HTML.
+			</p>
+			<p>
+				margin-left / margem esquerda.<br>
+				margin-right / margem direita.<br>
+				color / cor.<br>
+				margin-top / margem superior.<br>
+				font-family / família de fontes.<br>
+				margin-bottom / margem de fundo.<br>
+				font-size / tamanho da fonte.
+			</p>
+			
+			<P>
+				Oitava aula video da pagina Digital Innovation One.<br>
+				Curso Programação para internet com HTML5 e CSS3.<br>
+				Aprenda a corrigir regularidades de estilos 
+				inseridos e a subir o código no GitHub.
+			</p>
+			<p>
+				width="300px" por "img_padrao".<br>
+				No arquivo CSS refece .img_padrao.
+			</p>
+			-->
+			
+		<footer>
+			<p>Desenvolvido por ISS</p>
+		</footer>
+		
+	</body>
+	
+</html>
